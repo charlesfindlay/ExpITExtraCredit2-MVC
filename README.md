@@ -1,4 +1,3 @@
-# ExpITExtraCredit2-MVC
 Extra credit problems for the MVC section of the .NET bootcamp
 
 ## Exercise 1: MVCMovie App
@@ -11,16 +10,8 @@ Let's add additional functionality to the MVC Movie app you did as your first MV
 ## Exercise 2: Address Book x2
 
 * Redo the address book you did as a console app as a MVC application. You will need to start a new project, but depending on how you wrote the original code, you might be able to reuse some of your work.
-* This project can essentially be done by mimicking the Movie app project. No new skills outside of what was already taught.
-* Implement your search function using LINQ syntax
+* Try to do this project without looking at the insturctions for the Movie app. This project can essentially be done by mimicking the Movie app project. Because no new skills outside of what was already taught are needed, you'll learn more by doing as much as possible from memory.
+* Implement your search function using LINQ syntax.
+* Add appropriate validation and/or attributes to your model
 
-## Exercise 3: Dealership
 
-Create a MVC project for a auto dealership. This dealership sells cars, fuel efficient cars, and trucks. The dealership also has a policy where a customer can place a 5% deposit down on a vechile and then take it home for 24hrs for test driving.
-Your app should be able to do the following:
-
-* Create models for the three types of vehichles sold. Use inheritance where appropriate.
-* Track customers who bought vehicles and people who have vehicles out on test drives and when the vehicle is due back.
-* The dealership manager should be able to see quickly how many of each type of vehicle are on the lot vs out on test drives.
-
-Bonus: On the various car detail pages include a picture of the vehicle. There are several ways to do this.
