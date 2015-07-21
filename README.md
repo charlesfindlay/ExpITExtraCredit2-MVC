@@ -4,8 +4,12 @@ Extra credit problems for the MVC section of the .NET bootcamp
 
 Let's add additional functionality to the MVC Movie app you did as your first MVC tutorial.
 
-* Add a rating field linked to an enum to your model. Implement the ratings field(G, PG, PG-13, R) in your create/edit views as a dropdown. You'll need to change your code in every the MovieController, your model, and every view where the rating can be set or displayed.
+NOTE: Create and use a github branch as you implement these features. If you work off your master branch and don't get everything completely working then you will break your code and the app won't work.
+
+* Add a rating field linked to an enum to your model. Implement the ratings field(G, PG, PG-13, R) in your create/edit views as a dropdown. You'll need to change your code in the MovieController, the model, and every view where the rating can be set or displayed.
 * Modify the Movie view index file to display the database information in a "prettier" format. Use your imagination. Anything is acceptable as long as you think it looks better than the simple rows the tutorial creates. You should still be able to access all the CRUD functions the current design allows in your new design.
+
+Bonus: Add another field with enum for the movie genres.
 
 ## Exercise 2: Address Book x2
 
