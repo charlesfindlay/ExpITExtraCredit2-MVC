@@ -38,14 +38,20 @@ The dealership app will take some stretching of your skills. You might not be ab
 
 
 ## Exercise 4: Museum
-Create a MVC project for an art museum. All art is contained in galleries.
-Your art model should contain at least: a text description, a type(painting, pottery, sclpture, doo-dads, etc), and the gallery it is displayed in.
-A gallery should be created for each style of art displayed(i.e. Egyptian, Asian, Early Man, American, etc..)
+Create a MVC project for an art museum. 
+
+* All art is contained in galleries.
+* Your art model should contain at least: a text description, a type(painting, pottery, sclpture, doo-dads, etc), and the gallery it is displayed in.
+* A gallery should be created for each style of art displayed(i.e. Egyptian, Asian, Early Man, American, etc..)
+* Create an artist class and add an artist field to the art model. Be able to display all art from that artist.
 
 The curator of the museum should be able to:
 
 * Add/remove art
 * See all the art in the museum
 * List all art in specific galleries
+* Include photos of your art pieces
 
-Bonus: Create an artist class and add an artist field to the art model. Be able to display all art from that artist.
+Bonus: 
+
+* Add user accounts so that only the curator can preform CRUD functions, and all other users can only view the items in the museum.
