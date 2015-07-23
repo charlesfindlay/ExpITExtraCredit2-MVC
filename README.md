@@ -37,7 +37,7 @@ Your app should be able to do the following:
 ### Add at least one of the following features
 
 * Create a feedback system for each type of car (Year, Make, Model). The feedback should be linked to customer accounts.
-aggregate* On the car detail page add the ability for customers browsing the site to input the expected #miles they will drive per year. This should link to a graph that displays the annual expected cost to operate the car. The graph should have categories for fuel, insurance, maintence, etc...
+* On the car detail page add the ability for customers browsing the site to input the expected #miles they will drive per year. This should link to a graph that displays the annual expected cost to operate the car. The graph should have categories for fuel, insurance, maintence, etc...
 * Add a compare car feature where a customer can select two cars to display side-by-side.
 
 The dealership app will take some stretching of your skills. You might not be able to do it until we've covered some additional lessons in class. That's OK.
