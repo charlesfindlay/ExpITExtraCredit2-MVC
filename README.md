@@ -21,18 +21,24 @@ Bonus: Add another field with enum for the movie genres.
 
 ## Exercise 3: Dealership
 
-Create a MVC project for an auto dealership. Your model should track: Make, model, year, MPG, color, and MSRP. Feel free to add other properties to track if you wish.
-For simplicity, assume all types of vehicles are tracked using the same model (i.e. trucks and cars will be treated the same).
-Once a car is sold, the sale is logged to a specific customer. In this program, assume a customer will only have one purchase.
+Create a MVC project for an auto dealership. You will need at least two models.
+
+* A car model should track: Make, model, year, MPG, color, and MSRP. You may decide other properties are also needed. For simplicity you may treat all types of vehicles the same(i.e. trucks and cars could use the same model).
+* A customer model which tracks the car purchased by linking to the car model.
+* Use individual user accounts. The accounts have two levels of access. Admin with full CRUD and customers, who can only browse available cars.
+
 Your app should be able to do the following:
 
-* Have full CRUD functionality for both models.
-* Be able to search by make, model, or color.
+* Be able to search by make, model, color, or price range.
+* Include a picture of the vehicle. There are several ways to do this.
 * Link the specific vehicle object to a specific customer when a sale is recorded.
 * Use the about page to display aggreate details of the dealership inventory. This page should be able to sum the total number of each car of specific year, make, and models.
     
+### Add at least one of the following features
 
-Bonus: On the various car detail pages include a picture of the vehicle. There are several ways to do this.
+* Create a feedback system for each type of car (Year, Make, Model). The feedback should be linked to customer accounts.
+* On the car detail page add the abilit for customers browsing the site to input the expected #miles they will drive per year. This should link to a graph that displays the annual expected cost to operate the car. The graph should have categories for fuel, insurance, maintence, etc..).
+* Add a compare car feature where a customer can select two cars to display side-by-side.
 
 The dealership app will take some stretching of your skills. You might not be able to do it until we've covered some additional lessons in class. That's OK.
 
