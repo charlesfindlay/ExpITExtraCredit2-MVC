@@ -30,11 +30,22 @@ Your app should be able to do the following:
 * Be able to search by make, model, or color.
 * Link the specific vehicle object to a specific customer when a sale is recorded.
 * Use the about page to display aggreate details of the dealership inventory. This page should be able to sum the total number of each car of specific year, make, and models.
-    Year  Make  Model  Count
-    2015  Ford  Escape  4
-    2015  Ford  F150  6
-    ... 
+    
 
 Bonus: On the various car detail pages include a picture of the vehicle. There are several ways to do this.
 
 The dealership app will take some stretching of your skills. You might not be able to do it until we've covered some additional lessons in class. That's OK.
+
+
+## Exercise 4: Museum
+Create a MVC project for an art museum. All art is contained in galleries.
+Your art model should contain at least: a text description, a type(painting, pottery, sclpture, doo-dads, etc), and the gallery it is displayed in.
+A gallery should be created for each style of art displayed(i.e. Egyptian, Asian, Early Man, American, etc..)
+
+The curator of the museum should be able to:
+
+* Add/remove art
+* See all the art in the museum
+* List all art in specific galleries
+
+Bonus: Create an artist class and add an artist field to the art model. Be able to display all art from that artist.
